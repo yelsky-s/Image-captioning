@@ -16,7 +16,7 @@ Caption prediction model trained using categorical_crossentropy loss function. L
 
 Model evaluation - correspondance of the predicted captions to the existing dataset captions - were calculated by BLEU scores (1-gram and 2-gram) from Python NLTK library.
 
-<img src="https://user-images.githubusercontent.com/101993270/230742050-660345c6-e8f2-4a47-84e2-732d2dcd51f6.png" width="350" />
+<img src="https://user-images.githubusercontent.com/101993270/230744030-f2edab1b-bb93-4ca7-9f90-f9087759a4ba.png" width="350" />
 
 Example of prediction on an unseen image from validation set:
 ![image](https://user-images.githubusercontent.com/101993270/230742251-0547d956-0fe3-4bb3-bc48-0d100f00dcdf.png)
