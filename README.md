@@ -5,4 +5,5 @@ In this project I didn't use any pretrained models. Both CNN and LSTM(RNN) model
 General code architecture: flickr30k dataset as input -> cnn model for features extraction -> caption prediction model (RNN LSTM?)
 
 Model architecture illustration:
-![image](https://user-images.githubusercontent.com/101993270/230741191-f670f7f2-af54-4643-94b0-4d230011b9fe.png)
+![image](https://user-images.githubusercontent.com/101993270/230741248-063afd2b-e1d8-4e15-9ad7-fef146a84907.png)
+
