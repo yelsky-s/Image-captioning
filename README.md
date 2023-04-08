@@ -12,11 +12,10 @@ A dataset was devided into Train and Test sets in a ratio of 0.85/0.15 of the ex
 
 Caption prediction model trained using categorical_crossentropy loss function. Loss values are showen below
 <img src="https://user-images.githubusercontent.com/101993270/230743078-dafd45b2-6da9-4337-82d2-0ab86f83feb3.png" width="550" />
-![image](https://user-images.githubusercontent.com/101993270/230743078-dafd45b2-6da9-4337-82d2-0ab86f83feb3.png)
+
 
 Model evaluation - correspondance of the predicted captions to the existing dataset captions - were calculated by BLEU scores (1-gram and 2-gram) from Python NLTK library.
 
-![image](https://user-images.githubusercontent.com/101993270/230742050-660345c6-e8f2-4a47-84e2-732d2dcd51f6.png)
 <img src="https://user-images.githubusercontent.com/101993270/230742050-660345c6-e8f2-4a47-84e2-732d2dcd51f6.png" width="350" />
 
 Example of prediction on an unseen image from validation set:
