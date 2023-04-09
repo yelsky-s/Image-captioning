@@ -1,8 +1,7 @@
 # Image-captioning
 Image captioning using TensorFlow and Flickr30K dataset
 
-## Brief:
-In this project I didn't use any pretrained models. Both CNN and LSTM(RNN) models were built with TensorFlow (and Keras) libraries and trained on Flickr30K dataset. Code for loading the dataset to Google Colab notebook from Kaggle datasets is included in attached notebook.
+In this project no pretrained models were used. Both CNN and LSTM(RNN) models were built with TensorFlow (and Keras) libraries and trained on Flickr30K dataset. Code for loading the dataset to Google Colab notebook from Kaggle datasets is included in attached notebook.
 
 ## Project description and goals:
 The aim of this project is to allow an image features recognition and provide short description of the image based on identified features.
