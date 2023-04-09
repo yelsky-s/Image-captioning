@@ -13,6 +13,7 @@ A dataset was devided into Train and Test sets in a ratio of 0.85/0.15 of the ex
 Features generated with custom CNN model were saved to .pkl file. Link to that file https://drive.google.com/file/d/1GdVluZCaOIfyZ0zMUeQd7r27nO3APyLm/view?usp=share_link
 
 Caption prediction model having image features and captions from Flickr_30k dataset for a respected images can be found here - https://drive.google.com/file/d/1zcxZ_WcDRwgMaHPnzW0vYknBvv9V3OSm/view?usp=share_link
+Both models can be uploaded directly to notebook (google colab). uploading code is included in cells below respective model generation and saving code cells.
 
 Caption prediction model trained using categorical_crossentropy loss function. Loss values are shown below
 <img src="https://user-images.githubusercontent.com/101993270/230743078-dafd45b2-6da9-4337-82d2-0ab86f83feb3.png" width="550" />
