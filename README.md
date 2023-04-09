@@ -1,6 +1,6 @@
 # Image-captioning
 Image captioning using TensorFlow and Flickr30K dataset
-In this project I didn't use any pretrained models. Both CNN and LSTM(RNN) models were built with TensorFlow (and Keras) libraries and trained on Flickr30K dataset. Code includes loading the dataset to Google Colab notebook from Kaggle datsets.
+In this project I didn't use any pretrained models. Both CNN and LSTM(RNN) models were built with TensorFlow (and Keras) libraries and trained on Flickr30K dataset. Code includes loading the dataset to Google Colab notebook from Kaggle datasets.
 
 Model architecture illustration:
 
@@ -10,7 +10,11 @@ Input Dataset: in this project Flickr_30k dataset was used. The dataset containe
 
 A dataset was devided into Train and Test sets in a ratio of 0.85/0.15 of the existing data. Validation set of 10 images was reserved to illustrate model performance on unseen images. Train set was used to train the RNN model for caption prediction, while the evaluation of model performance made on the Test set. 
 
-Caption prediction model trained using categorical_crossentropy loss function. Loss values are showen below
+Features generated with custom CNN model were saved to .pkl file. Link to that file https://drive.google.com/file/d/1GdVluZCaOIfyZ0zMUeQd7r27nO3APyLm/view?usp=share_link
+
+Caption prediction model having image features and captions from Flickr_30k dataset for a respected images can be found here - https://drive.google.com/file/d/1zcxZ_WcDRwgMaHPnzW0vYknBvv9V3OSm/view?usp=share_link
+
+Caption prediction model trained using categorical_crossentropy loss function. Loss values are shown below
 <img src="https://user-images.githubusercontent.com/101993270/230743078-dafd45b2-6da9-4337-82d2-0ab86f83feb3.png" width="550" />
 
 
