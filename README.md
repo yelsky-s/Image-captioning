@@ -7,7 +7,7 @@ In this project no pretrained models were used. Both CNN and RNN(LSTM) models we
 The aim of this project is to allow an image features recognition and provide short description of the image based on identified features.
 Model, trained on over 30,000 images of Flickr30k dataset, as built with intent to generalize well to any custom user images and photographs. The model is built to identify, recignize and verbaly describe (in short text sentsnce) the objects and main features depicted in the provided image.
 
-Model architecture illustration:
+###Model architecture illustration:
 
 <img src="https://user-images.githubusercontent.com/101993270/230741248-063afd2b-e1d8-4e15-9ad7-fef146a84907.png" width="800" />
 
